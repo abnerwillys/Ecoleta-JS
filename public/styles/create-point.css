@@ -2,7 +2,6 @@
     width: 90%;
     max-width: 1100px;
 
-    /*Alinhamento de caixa (pelo lado de fora)*/
     margin: 0 auto;
 }
 
@@ -32,11 +31,11 @@
     height: 24px; 
 }
 
-form { /*Caixa de formulario*/
+form {
     background-color: white;
     
     margin: 80px auto;
-    padding: 64px; /*preenchimento*/
+    padding: 64px; 
 
     border-radius: 8px;
 
@@ -94,13 +93,17 @@ form select {
 
     border-radius: 8px;
 
-    outline: none; /*Tirar a linha preta na borda! (outline=Linha de fora)*/
+    outline: none;
 }
 
-form select { /*essa parte é para tirar qualquer formatação que o navegador possa ter em cima dos campos "Select" */
-    -webkit-appearance: none; /* Para o google chrome */
-    -moz-appearance: none; /* para mozilla */
-    appearance: none; /* para os demais creio eu(ainda nao sei exatamente) */
+form select:not(:disabled) {
+    cursor: pointer;
+}
+
+form select { 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none; 
 }
 
 form label {
@@ -125,17 +128,17 @@ form button {
     font-size: 16px;
 
     margin-top: 40px;
-    transition: background-color 400ms; /*efeito de transição até chegar na cor imposta com mouse emcima*/
+    transition: background-color 400ms; 
 }
 
-form button:hover { /*efeito para quando colocar o mouse emcima do botao */
-    background-color: #2fb86e; /* cor quando o mouse tiver em cima */
+form button:hover { 
+    background-color: #2fb86e; 
 }
 
 .items-grid {
-    display: grid; /*Display para criar grade*/
-    grid-template-columns: 1fr 1fr 1fr; /* fr seria frações, portanto ele mesmo cacula e encaixa dentro do especificado anteriormente.*/
-    gap: 16px; /* faz a separação entre os itens da grade. Daria pra fazer com margem, porém fica muito mais extenso e complexo código*/
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 16px; 
 
 }
 
@@ -156,7 +159,7 @@ form button:hover { /*efeito para quando colocar o mouse emcima do botao */
     justify-content: space-between;
     text-align: center;
 
-    cursor: pointer; /*Para mudar o cursor quando passar o mouse em cima do icone*/
+    cursor: pointer; 
 }
 
 .items-grid li span {
@@ -170,12 +173,12 @@ form button:hover { /*efeito para quando colocar o mouse emcima do botao */
     color: var(--title-color);
 }
 
-.items-grid li.selected { /* Para mudar apenas quando item estiver selecionado */
+.items-grid li.selected { 
     background-color: #e1faec;
     border: 2px solid #34cb79;
 }
 
 .items-grid li img,
 .items-grid li span {
-    pointer-events: none; /*Evento(que coloca no JS) de clicar nao ira mais funcionar no img e no span.*/
+    pointer-events: none; 
 }

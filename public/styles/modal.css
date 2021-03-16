@@ -15,7 +15,7 @@
 }
 
 #modal.hide {
-    display: none; /*Display none faz com que nao apareça na tela*/
+    display: none;
 }
 
 #modal .content  {
@@ -38,7 +38,7 @@
     width: 20px;
     height: 20px;
 
-    display: flex; /*display para ficar um ao lado do outroo */
+    display: flex;
 
     font-size: 0.01px;
 }
@@ -54,8 +54,7 @@
     font-size: 14px;
     line-height: 16px;
 
-    display: block; /*display para forçar que fique a linha toda, 
-                    isso permite aplicar margem(igual abaixo). Se fosse inline nao poderia*/
+    display: block;
     margin-bottom: 8px;
 }
 
@@ -92,7 +91,7 @@
     transition: 400ms;
 }
 
-/* Isto é para o modal point-created */
+/* modal point-created */
 
 #modal.point .content{
     display: flex;

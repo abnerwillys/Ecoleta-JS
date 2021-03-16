@@ -14,45 +14,43 @@
 {% block content %}
     {% include "partials/page-header.html" %}
     <form action="/savepoint" method="POST">
-        <!--Para criar formulario-->
-
         <h1>Cadastro do ponto de coleta</h1>
 
         <fieldset>
-            <!--Caixa para "agrupar itens"(diferente do div que nao tem objetivo especificado) -->
             <legend>
                 <h2>Dados da entidade</h2>
             </legend>
 
             <div class="field-group">
                 <div class="field">
-                <label for="name">Nome da entidade</label>
-                <input type="text" name="name" required="required">
-            </div><div class="field">
-                <label for="name">Imagem da entidade</label>
-                <input 
-                    type="url" 
-                    name="image"
-                    placeholder="http://"
-                    required="required">
-            </div>
+                    <label for="name">Nome da entidade</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="field">
+                    <label for="name">Imagem da entidade</label>
+                    <input 
+                        type="url" 
+                        name="image"
+                        placeholder="http://"
+                        required>
+                </div>
             </div>
 
             <div class="field-group">
                 <div class="field">
                     <label for="address">Endereço</label>
-                    <input type="text" name="address" required="required">
+                    <input type="text" name="address" required>
                 </div>
                 <div class="field">
                     <label for="address2">Número/Complemento</label>
-                    <input type="text" name="address2" required="required">
+                    <input type="text" name="address2" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <div class="field">
                     <label for="state">Estado</label>
-                    <select name="uf" required="required">
+                    <select name="uf" required>
                         <option value="">Selecione o Estado</option>
                     </select>
 
@@ -60,7 +58,7 @@
                 </div>
                 <div class="field">
                     <label for="city">Cidade</label>
-                    <select name="city" disabled="disabled" required="required">
+                    <select name="city" disabled="disabled" required>
                         <option value="">Selecione a Cidade</option>
                     </select>
                 </div>
@@ -75,7 +73,6 @@
 
             <div class="items-grid">
                 <li data-id="Lâmpadas">
-                    <!--Tag geralmente usava no contexto de listas-->
                     <img src="/assets/lampadas.svg" alt="Lâmpadas">
                     <span>Lâmpadas</span>
                 </li>
