@@ -44,6 +44,8 @@
 
 ♻️ Ecoleta - é uma forma de conectar empresas e entidades de coleta de resíduos orgânicos e inorgânicos as pessoas que precisam descartar seus resíduos de maneira ecológica.
 
+> **IMPORTANTE: Esse projeto foi desenvolvido também em TypeScript com React, NodeJs e React Native. Uma API Rest com versão Web e Mobile, com funcionalidades maiores e mais complexas. Caso queira conferir [clique aqui](https://github.com/abner-starkasty/Ecoleta-TS).**
+
 As empresas ou entidades poderão se cadastrar na plataforma web enviando:
 - uma imagem do ponto de coleta;
 - nome da entidade, email e endereço;
