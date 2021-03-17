@@ -1,6 +1,6 @@
 <h1 align="center">
   <img 
-    src="./public/assets/banner.PNG"
+    src="https://github.com/abner-starkasty/Ecoleta-JS/blob/master/public/assets/banner1.png"
     width="800px">
 </h1>
 
@@ -60,11 +60,34 @@ Os usuários poderão entrar no site e saber quais pontos de coletas estão pres
 
 Esse projeto foi desenvolvido em cima de JS Vanilla afim fortalecer habilidades na linguagem.
 
+Abaixo as telas da aplicação:
+
+<p align="center">
+  <img 
+  src="https://github.com/abner-starkasty/Ecoleta-JS/blob/master/public/assets/banner2.png"
+  width="400px"
+  height="300px"
+  alt="Telas Ecoleta">
+  <img 
+  src="https://github.com/abner-starkasty/Ecoleta-JS/blob/master/public/assets/banner3.png"
+  width="400px"
+  height="300px"
+  alt="Telas Ecoleta">
+  <img 
+  src="https://github.com/abner-starkasty/Ecoleta-JS/blob/master/public/assets/banner5.png"
+  width="400px"
+  alt="Telas Ecoleta">
+  <img 
+  src="https://github.com/abner-starkasty/Ecoleta-JS/blob/master/public/assets/banner6.png"
+  width="400px"
+  alt="Telas Ecoleta">
+</p>
+
 ---
 
 ### 🎨 Layout
 
-Caso queira ver as demais telas da aplicação sem precisar baixar o projeto, o layout usado como base está disponível no Figma:
+Caso queira ver as detalhes das telas da aplicação sem precisar baixar o projeto, o layout usado como base está disponível no Figma:
 
 <a href="https://www.figma.com/file/Ia4RPkWPeRNzwjTzFy3hIn/Ecoleta-(Starter)---NLW%231?node-id=136%3A546">
   <img alt="Made by Abner" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
